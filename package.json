@@ -1,0 +1,7 @@
+{
+  "name": "future-sky-vercel-proxy",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Vercel front door for the Future Sky portfolio: passes every request to the server on the owner's PC."
+}

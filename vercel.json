@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "functions": {
+    "api/proxy.js": { "maxDuration": 60, "includeFiles": "origin-cert.pem" }
+  },
+  "rewrites": [{ "source": "/(.*)", "destination": "/api/proxy?__p=/$1" }]
+}
